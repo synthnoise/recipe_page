@@ -1,3 +1,15 @@
 div {
-    color: red;
+    color: black;
+}
+
+.alert-text {
+    color: purple;
+}
+
+.subsection.header {
+    color: blueviolet;
+}
+
+.subsection#preview {
+    color: blueviolet;
 }
