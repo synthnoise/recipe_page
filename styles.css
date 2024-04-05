@@ -3,13 +3,16 @@ div {
 }
 
 .alert-text {
-    color: purple;
+    color: black;
 }
 
 .subsection.header {
-    color: blueviolet;
+    background-color: lightgray;
+    padding: 8px;
 }
 
-.subsection#preview {
-    color: blueviolet;
+.recipe.header {
+    background-color: lightgray;
+    text-align: center;
+    padding: 8px;
 }

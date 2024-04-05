@@ -4,19 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lasagna Ingredients</title>
+    <style>
+        .recipe {
+            text-align: center;
+            background-color: whitesmoke;
+            border: 2px solid black;
+            margin: 20px auto;
+            width: 500px;
+        }
+
+        .ingredients {
+            background-color: whitesmoke;
+            border: 2px solid black;
+            margin: 16px auto;
+            text-align: center;
+            padding: 10px;
+            width: 350px;
+        }
+
+        .ingredients ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            background-color: whitesmoke;
+        }
+
+        * {
+            background-color: rgb(188, 93, 93);
+        }
+    </style>
 </head>
 <body>
-    <h1>Ingredients for Lasagna</h1>
-    <ul>Pasta</ul>
-    <ul>Tomato Sauce</ul>
-    <ul>Ground Beef (1.5lb)</ul>
-    <ul>Various Cheeses:
-        <ul>Ricotta</ul>
-        <ul>Cottage Cheese</ul>
-        <ul>Cheddar</ul>
-        <ul>Mozzarella</ul>
-    </ul>
-    <img src="../images/Lasagna.jpg" alt="picture of lasagna" height="310" width="310">
+    <h1 class="recipe">Ingredients for Lasagna</h1>
+    <div class = "ingredients">
+        <ul>Pasta</ul>
+        <ul>Tomato Sauce</ul>
+        <ul>Ground Beef (1.5lb)</ul>
+        <ul>Various Cheeses:
+            <ul>Ricotta</ul>
+            <ul>Cottage Cheese</ul>
+            <ul>Cheddar</ul>
+            <ul>Mozzarella</ul>
+        </ul>
+    </div>
+    <img style="border:2px solid black;"src="../images/Lasagna.jpg" alt="picture of lasagna" height="310" width="310">
     <h3>Steps</h3>
     <ol>Step 1:</ol>
     <ol>Step 2:</ol>
