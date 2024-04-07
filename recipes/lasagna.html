@@ -5,18 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lasagna Ingredients</title>
     <style>
+        * {
+            background-color: rgb(188, 93, 93);
+        }
+
         .recipe {
             text-align: center;
             background-color: whitesmoke;
             border: 2px solid black;
             margin: 20px auto;
-            width: 500px;
+            width: 550px;
         }
 
         .ingredients {
             background-color: whitesmoke;
-            border: 2px solid black;
-            margin: 16px auto;
+            border: 3px solid black;
+            margin-left: 16px;
             text-align: center;
             padding: 10px;
             width: 350px;
@@ -29,29 +33,53 @@
             background-color: whitesmoke;
         }
 
-        * {
-            background-color: rgb(188, 93, 93);
+        .steps {
+            margin-left: 20px;
+            background-color: white;
+            border: 2px solid black;
+            padding: 10px;
+            width: 250px;
+        }
+
+        .steps ol,h3 {
+            background-color: white;
+            margin: 0;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        
+        .img {
+            margin-left: 16px;
+            margin-right: 16px;
         }
     </style>
 </head>
 <body>
     <h1 class="recipe">Ingredients for Lasagna</h1>
-    <div class = "ingredients">
-        <ul>Pasta</ul>
-        <ul>Tomato Sauce</ul>
-        <ul>Ground Beef (1.5lb)</ul>
-        <ul>Various Cheeses:
-            <ul>Ricotta</ul>
-            <ul>Cottage Cheese</ul>
-            <ul>Cheddar</ul>
-            <ul>Mozzarella</ul>
-        </ul>
+    <div class="container">
+        <div class = "ingredients">
+            <ul>Pasta</ul>
+            <ul>Tomato Sauce</ul>
+            <ul>Ground Beef (1.5lb)</ul>
+            <ul>Various Cheeses:
+                <ul>Ricotta</ul>
+                <ul>Cottage Cheese</ul>
+                <ul>Cheddar</ul>
+                <ul>Mozzarella</ul>
+            </ul>
+        </div>
+        <img style="border:2px solid black;"src="../images/Lasagna.jpg" alt="picture of lasagna" height="310" width="350">
+        <div class="steps">
+            <h3>Steps for making Lasagna</h3>
+                <ol>Step 1: Cook</ol>
+                <ol>Step 2:</ol>
+                <ol>Step 3:</ol>
+                <ol>Step 4:</ol>
+        </div>
     </div>
-    <img style="border:2px solid black;"src="../images/Lasagna.jpg" alt="picture of lasagna" height="310" width="310">
-    <h3>Steps</h3>
-    <ol>Step 1:</ol>
-    <ol>Step 2:</ol>
-    <ol>Step 3:</ol>
-    <ol>Step 4:</ol>
 </body>
 </html>

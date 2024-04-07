@@ -4,22 +4,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Burger Ingredients</title>
+    <style>
+        * {
+            background-color: blanchedalmond;
+        }
+
+        .ingredients {
+            background-color: white;
+            padding: 8px;
+            color: black;
+            border: 3px solid black;
+            width: 350px;
+        }
+
+        .ingredients ul {
+            background-color: white;
+        }
+
+        .header {
+            width:550px;
+            border: 3px solid black;
+            padding: 10px;
+            background-color: white;
+            text-align: center;
+            margin: 25px auto;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .steps {
+            background-color: white;
+            padding: 8px;
+            border: 3px solid black;
+            width: 300px;
+        }
+
+        .steps ol , h3{
+            background-color: white;
+        }
+    </style>
 </head>
 <body>
-    <ul>Ingredients for Burger</ul>
-    <ul>Beef Patties</ul>
-    <ul>Sliced Cheese</ul>
-    <ul>Vegetables:
-        <ul>Tomatoes</ul>
-        <ul>Lettuce</ul>
-        <ul>Sliced Onion</ul>
-    </ul>
-    <ul>Burger Buns</ul>
-    <img src="../images/Hamburger.jpg" alt="Picture of a hamburger" height="310" width="310">
-    <h3>Steps</h3>
-    <ol>Step 1:</ol>
-    <ol>Step 2:</ol>
-    <ol>Step 3:</ol>
-    <ol>Step 4:</ol>
+    <h1 class="header">Recipe for Burgers</h1>
+    <div class="container">
+        <div class="ingredients">
+            <ul>Ingredients for Burger</ul>
+            <ul>Beef Patties</ul>
+            <ul>Sliced Cheese</ul>
+            <ul>Vegetables:
+                <ul>Tomatoes</ul>
+                <ul>Lettuce</ul>
+                <ul>Sliced Onion</ul>
+                <ul>Burger Buns</ul>
+            </ul>
+        </div>
+        <img style="border: 3px solid black;"src="../images/Hamburger.jpg" alt="Picture of a hamburger" height="320" width="320">
+        <div class="steps">
+            <h3>Steps to make burger</h3>
+            <ol>Step 1:</ol>
+            <ol>Step 2:</ol>
+            <ol>Step 3:</ol>
+            <ol>Step 4:</ol>
+        </div>
+    </div>
 </body>
 </html>

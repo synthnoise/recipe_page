@@ -1,5 +1,5 @@
-div {
-    color: black;
+* {
+    background-color: rgb(255, 253, 208);
 }
 
 .alert-text {
@@ -8,11 +8,19 @@ div {
 
 .subsection.header {
     background-color: lightgray;
+    color: black;
     padding: 8px;
+    width: 650px;
+    margin: auto;
+    border: 3px solid black;
 }
 
 .recipe.header {
     background-color: lightgray;
     text-align: center;
-    padding: 8px;
+    padding: 12px;
+    margin: auto;
+    margin-top: 16px;
+    border: 3px solid black;
+    width: 800px;
 }
